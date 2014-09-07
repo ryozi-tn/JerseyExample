@@ -2,7 +2,7 @@ Example Jersey
 ==============
 Jersey example and executable war. (Powered by Jetty)
 
-Synopsys (for Eclipse)
+Synopsys
 -----------
 (this example is require network)
 
