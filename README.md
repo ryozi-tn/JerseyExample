@@ -13,11 +13,10 @@ Synopsys (for Eclipse)
 
 ### setup (if using eclipse)
 
-	gradle cleanEclipse eclipse
+	gradlew cleanEclipse eclipse
 
 ### build
 
-	# build
 	gradlew war
 
 ### build executable war
