@@ -13,15 +13,15 @@ Synopsys (for Eclipse)
 
 ### setup (if using eclipse)
 
-	gradlew cleanEclipse eclipse
+	./gradlew cleanEclipse eclipse
 
 ### build
 
-	gradlew war
+	./gradlew war
 
 ### build executable war
 
-	gradlew executableWar
+	./gradlew executableWar
 	java -jar java -Dorg.eclipse.jetty.LEVEL=DEBUG -jar build\libs\JerseyExample-executable-0.01.war
 
 
