@@ -8,8 +8,8 @@ Synopsys (for Eclipse)
 
 ### setup
 
-	git clone (this project)
-	cd (this project directory)
+	git clone https://github.com/ryozi-tn/JerseyExample
+	cd JerseyExample
 
 ### setup (if using eclipse)
 
@@ -22,6 +22,6 @@ Synopsys (for Eclipse)
 ### build executable war
 
 	./gradlew executableWar
-	java -jar java -Dorg.eclipse.jetty.LEVEL=DEBUG -jar build\libs\JerseyExample-executable-0.01.war
+	java -Dorg.eclipse.jetty.LEVEL=DEBUG -jar build\libs\JerseyExample-executable-0.01.war
 
 
