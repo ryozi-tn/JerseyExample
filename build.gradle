@@ -21,6 +21,8 @@ targetCompatibility = 1.7
 
 def lancherName = 'myapp.example.main.Lancher'
 
+compileJava.options.compilerArgs = ["-target", targetCompatibility, "-source", sourceCompatibility]
+
 // tasks
 
 repositories {
